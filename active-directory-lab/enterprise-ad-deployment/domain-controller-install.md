@@ -1,3 +1,4 @@
+
 # ESXi
 1. Obtain Windows Server 2022 Evaluation ISO from official Microsoft website.
 	1. Licenses are valid for 180 days.
