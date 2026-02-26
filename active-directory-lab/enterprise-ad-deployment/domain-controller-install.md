@@ -29,3 +29,27 @@ Once the Windows Server 2022 instance is booted up, you'll be prompted to instal
 7. Windows Server 2022 will install, then proceed to reboot once complete.
 # Domain Services Install
 ---
+Once Windows Server is installed, you have to install Active Directory Domain Services (AD DS) onto the server using the following steps:
+
+1. Send 'Ctrl-Alt-Del' to the machine.
+	1.  on ESXi, its under 'Actions' > 'Guest OS' > 'Send Keys'.
+2. Windows will prompt you to change the password for the Administrator account. Once complete, you will be placed into SConfig.
+3. (Optional) If needed, configure network settings by typing in `8`. 
+4. Exit to command line (PowerShell) by typing `15`.
+5. First rename the server using `Rename-Computer -NewName <new_name>`
+6. Use `Get-NetAdapter` to find the interface you want to modify. We want to modify 'Ethernet0'.
+<img src='/active-directory-lab/enterprise-ad-deployment/assets/get-netadapter-output.png' width='800' alt='output'>
+7. We will then assign a static IP address to the interface using ```
+New-NetIPAddress -InterfaceAlias <Name of Interface> -IPAddress '<IP_ADDRESS>' -AddressFamily IPV4 -PrefixLength <subnet mask in CIDR notation> -Defaultgateway '<ROUTER_ADDRESS>'```
+8. Then we will set the DNS server(s) using `Set-DnsClientServerAddress` like so. ``` Set-DnsClientServerAddress -InterfaceAlias <interface name> -ServerAddressess '<dns address>'```
+9. Test your connecting using ping. I recommend pinging a public DNS server such as Cloudflare at 1.1.1.1 or 1.0.0.1, and test using a Fully Qualified Domain Name (FQDN) such as lttstore.com.
+10. Proceed to run `Install-WindowsFeature Ad-Domain-Services -IncludeManagementTools -Verbose`.
+
+---
+# Lessons Learned
+This dove into system administration by setting up a VM or server and installing Windows Server 2022. This provides experience on how initial configuration is performed. Additionally, with this being Windows, we were able to exercise some PowerShell administration using commands to further reenforce PowerShell understanding.
+
+---
+
+# References
+- https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-
