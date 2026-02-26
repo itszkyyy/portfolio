@@ -2,7 +2,7 @@ At the time of this writing, 2026-02-24, the current version of Wazuh is 4.14.
 
 ---
 
-# Requirements
+## Requirements
 - Server or Linux VM allocated with at least a 4 core CPU, 8 GiB of RAM, and 50GB of storage.  
 
  ![](security-projects/wazuh-siem/attachments/wazuh-recommended-hardware.png)
@@ -13,7 +13,7 @@ At the time of this writing, 2026-02-24, the current version of Wazuh is 4.14.
 
 --- 
 
-# Install
+## Install
 
 It should be noted that this install is on a single server, Wazuh supports a cluster install.
 
@@ -35,18 +35,18 @@ INFO: Installation finished.
 
 --- 
 
-# Agents
+## Agents
 Wazuh is an agent-based SIEM solution, that also have the capability to handle rsyslog requests for when the agent cannot be installed. The agent can be installed on Linux, Windows, MacOS, Solaris, AIX, and HP-UX.
 
 The links to the various OS agents can be found at 'https://documentation.wazuh.com/current/installation-guide/wazuh-agent/index.html' 
 
 --- 
-# Lessons Learned
+## Lessons Learned
 This was a very straightforward install. This enabled me on how a SIEM is deployed, and integrated in a given environment. 
 - The use of Wazuh over Splunk is due to Wazuh's open-source nature that assures that I have access to as much features without the need of a license. While Splunk is ideal for a true enterprise experience, the limiting nature of it's free license was a no-go.
 
 --- 
 
-# References
+## References
 - https://documentation.wazuh.com/current/quickstart.html
 - https://documentation.wazuh.com/current/installation-guide/wazuh-agent/index.html
