@@ -5,7 +5,8 @@ At the time of this writing, 2026-02-24, the current version of Wazuh is 4.14.
 # Requirements
 - Server or Linux VM allocated with at least a 4 core CPU, 8 GiB of RAM, and 50GB of storage.  
 
- ![[wazuh-recommended-hardware.png]]
+ ![](security-projects/wazuh-siem/attachments/wazuh-recommended-hardware.png)
+
 - Linux distribution of your choice.
 	- Note: Windows cannot be used as per Wazuh documentation at `https://documentation.wazuh.com/current/quickstart.html`
 - Internet connection.
