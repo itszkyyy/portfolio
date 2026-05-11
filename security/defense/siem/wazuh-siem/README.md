@@ -4,4 +4,4 @@ This project is about Wazuh, an open-source SIEM solution, on Red Hat Enterprise
 # Table of Contents
 A. <a href='wazuh-fullstack-install.md'>Installation of Wazuh</a>
 
-B. <b href="/defense/siem/wazuh-siem/agent-install.md">Installing and Deploying the Wazuh Agent</b>
+B. <a href="agent-install.md">Installing and Deploying the Wazuh Agent</a>
