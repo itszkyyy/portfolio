@@ -1,0 +1,2 @@
+# Summary
+Installing and configuring a Windows Server with Active Directory Domain Services (AD DS) enables centralized Identity Access Management (IAM), endpoint configuration with Group Policy Objects, and high availability through Domain Controller replication.
