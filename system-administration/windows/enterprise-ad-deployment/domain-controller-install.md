@@ -38,7 +38,7 @@ Once Windows Server is installed, you have to install Active Directory Domain Se
 4. Exit to command line (PowerShell) by typing `15`.
 5. First rename the server using `Rename-Computer -NewName <new_name>`
 6. Use `Get-NetAdapter` to find the interface you want to modify. We want to modify 'Ethernet0'.
-<img src='/active-directory-lab/enterprise-ad-deployment/assets/get-netadapter-output.png' width='800' alt='output'>
+<img src='/system-administration/windows/enterprise-ad-deployment/assets/get-netadapter-output.png' width='800' alt='output'>
 7. We will then assign a static IP address to the interface using ```
 New-NetIPAddress -InterfaceAlias <Name of Interface> -IPAddress '<IP_ADDRESS>' -AddressFamily IPV4 -PrefixLength <subnet mask in CIDR notation> -Defaultgateway '<ROUTER_ADDRESS>'```
 8. Then we will set the DNS server(s) using `Set-DnsClientServerAddress` like so. ``` Set-DnsClientServerAddress -InterfaceAlias <interface name> -ServerAddressess '<dns address>'```
@@ -47,7 +47,9 @@ New-NetIPAddress -InterfaceAlias <Name of Interface> -IPAddress '<IP_ADDRESS>' -
 
 ---
 # Lessons Learned
-This dove into system administration by setting up a VM or server and installing Windows Server 2022. This provides experience on how initial configuration is performed. Additionally, with this being Windows, we were able to exercise some PowerShell administration using commands to further reenforce PowerShell understanding.
+This dove into system administration by setting up a VM or server and installing Windows Server 2022. This provides experience on how initial configuration is performed. Additionally, we were able to exercise Windows administration through PowerShell.
+
+We'll be diving from this topic into Group Policy Objects (GPOs) to deepen our understanding of how policies are applied within an Active Directory environment.
 
 ---
 
