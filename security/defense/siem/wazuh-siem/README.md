@@ -2,5 +2,6 @@
 This project is about Wazuh, an open-source SIEM solution, on Red Hat Enterprise Linux so I may have a security dashboard to have an overview of my network environment. Logging allows me to be aware of security or server issues that may arise so I may promptly remediate the issue.
 
 # Table of Contents
-A. <a href='wazuh-fullstack-install.md'>Installation of Wazuh</a><BR>
-B. <b href='agent-install.md'>Installing and Deploying the Wazuh Agent</b>
+A. <a href='wazuh-fullstack-install.md'>Installation of Wazuh</a>
+
+B. <b href="/defense/siem/wazuh-siem/agent-install.md">Installing and Deploying the Wazuh Agent</b>
