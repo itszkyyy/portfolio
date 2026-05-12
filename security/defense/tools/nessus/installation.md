@@ -36,7 +36,7 @@ Navigate to `https://<server_ip_address>:8834/` for the dashboard.<BR>
     Note: This can take a bit of time depending on your connection and hardware.
 
 Once complete, you can move on forward to configuring your first scan!<BR>
-<a href='/scan-configuration.md'>Proceed to scan configuration</a>
+<a href='./scan-configuration.md'>Proceed to scan configuration</a>
 
 ## References
 https://www.tenable.com/downloads/nessus<BR>
