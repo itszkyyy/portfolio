@@ -46,6 +46,11 @@ This was a very straightforward install. This enabled me on how a SIEM is deploy
 
 --- 
 
+## Continuing On
+
+Following the installation of the Wazuh stack instance, you must install the Wazuh agent onto endpoints and point them to the instance. 
+
+Proceed to <a href="./agent-install.md">Installing the Wazuh agent</a>.
 ## References
 - https://documentation.wazuh.com/current/quickstart.html
 - https://documentation.wazuh.com/current/installation-guide/wazuh-agent/index.html

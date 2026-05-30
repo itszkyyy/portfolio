@@ -83,4 +83,4 @@ Install using the appropriate guide for your package manager:
     3. Start the service:
         `NET start Wazuhsvc`
 
-## Note that the configuration file is stored at C:\'Program Files (x86)'\ossec-agent
+## Note that the configuration file is stored at C:\\'Program Files (x86)'\ossec-agent
