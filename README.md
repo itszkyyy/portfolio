@@ -9,6 +9,7 @@ Projects related to cybersecurity, vulnerability assessment, penetration testing
 ### System Administration
 Projects involving Linux and Windows administration, automation, server management, scripting, and operational support.
 <hr>
+
 ## Objective
 
 This portfolio is designed to showcase:
