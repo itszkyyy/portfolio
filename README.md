@@ -1,11 +1,3 @@
-## Objective
-
-This portfolio is designed to showcase:
-- Technical problem-solving skills
-- Practical cybersecurity knowledge
-- System administration experience
-- Network engineering fundamentals
-- Continuous professional development
 ## Portfolio Sections
 
 ### Networking
@@ -16,7 +8,17 @@ Projects related to cybersecurity, vulnerability assessment, penetration testing
 
 ### System Administration
 Projects involving Linux and Windows administration, automation, server management, scripting, and operational support.
+<hr>
+## Objective
 
+This portfolio is designed to showcase:
+- Technical problem-solving skills
+- Practical cybersecurity knowledge
+- System administration experience
+- Network engineering fundamentals
+- Continuous professional development
+
+<hr>
 I regularly update this repository with new projects, labs, and learning exercises as I continue to expand my cybersecurity expertise.
 
 Thank you for taking the time to review my portfolio!
