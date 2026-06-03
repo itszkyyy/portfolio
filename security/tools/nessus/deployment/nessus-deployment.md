@@ -38,7 +38,7 @@ Navigate to `https://<server_ip_address>:8834/` for the dashboard.<BR>
 Once complete, you can move on forward to configuring your first scan!<BR>
 <a href='../scans/scan-configuration.md'>Proceed to scan configuration</a>
 
-[[portfolio/security/tools/nessus/README|Back to Nessus root folder]]
+<a href="../README.md/">Return to Nessus README</a>
 ## References
 https://www.tenable.com/downloads/nessus<BR>
 https://docs.tenable.com/nessus/Content/HardwareRequirements.htm

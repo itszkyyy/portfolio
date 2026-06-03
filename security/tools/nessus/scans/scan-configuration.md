@@ -45,7 +45,7 @@ Once complete you'd be able to see a list of hosts and their open ports!
 ## Conclusion
 Scanning for vulnerabilites on a regular basis enhances network security by proactively looking for network weaknesses allowing a method to inventory and track current vulnerabilities on our endpoints.
 
-[Back to Nessus Readme](../README)
+<a href="../README.md">Return to Nessus README</a>
 
 ## Additional Learning
 TryHackMe's Tenable Nessus Room located <a href='https://tryhackme.com/room/rpnessusredux'>here</a>.<BR><BR>
