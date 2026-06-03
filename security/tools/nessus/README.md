@@ -19,9 +19,9 @@ This project demonstrates the deployment and use of **Tenable Nessus** for vulne
 
 ## Project Sections
 - deployment/
-	- [[nessus-deployment|Deploying Nessus Essentials]]
+	- <a href="./deployment/nessus-deployment.md">Nessus Deployment</a>
 - scans/
-	- [[scan-configuration|Configurating a Nessus host scan]]
+	- <a href="./scans/scan-configuration.md">Scan configuration</a>
 
 ## Key Outcomes  
 - Successfully deployed Nessus and completed scans of multiple target systems. 
