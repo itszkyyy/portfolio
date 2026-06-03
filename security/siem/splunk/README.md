@@ -10,8 +10,8 @@ This project demonstrates the deployment and operation of Splunk Enterprise for 
 
 ## Project Sections  
 - deployment/  
-	- [[website/projects/security/siem/splunk/splunk-install|Splunk Enterprise Installation]]
-	- [[universal-forwarder-deployment|Universal Forwarder Deployment]] 
+	- <a href="./deployment/splunk-install.md">Splunk Enterprise Install</a>
+	- <a href="./deployment/universal-forwarder-deployment.md">Universal Forwarder Deployment</a>
   
 - detections/  
 	- Failed logon detection  
