@@ -1,5 +1,5 @@
 ## Overview
-This section covers the deployment and configuration of Splunk's universal forwarder, followed by verification of log ingestion after the installation of [[portfolio/security/siem/splunk/deployment/splunk-install|Splunk]]
+This section covers the deployment and configuration of Splunk's universal forwarder, followed by verification of log ingestion after the installation of <a href='./splunk-install.md/'>Splunk Enterprise</a>
 ## Procedure
 
 This follows the installation the Splunk Universal Forwarder on a Linux DNS server. 
@@ -33,3 +33,5 @@ This follows the installation the Splunk Universal Forwarder on a Linux DNS serv
 
 ## Conclusion
 Proper configuration and verification of proper operation is crucial to assure that all the necessary information are being forwarded to the SIEM.
+
+Return to Splunk's <a href="../README.md">README</a>

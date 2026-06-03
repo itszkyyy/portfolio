@@ -45,6 +45,7 @@ At this point, I've proceeded to install the Splunk Universal Forwarder on a DNS
 # Conclusion
 Installing Splunk allows me to apply Splunk specific syntax along with getting used to Splunk's interface. I've wanted a means of aggregating logs from my firewalls and servers to have full network visability into my network traffic.
 A future step will include creating custom alerts for TTPs used by APTs. <BR><BR>
+Return back to Splunk <a href="../README.md">README</a>
 # References
 https://splunk.com/<BR><BR>
 https://help.splunk.com/en/data-management/forward-data/universal-forwarder-manual/9.1/configure-the-universal-forwarder/configure-the-universal-forwarder-using-configuration-files<BR><BR>
