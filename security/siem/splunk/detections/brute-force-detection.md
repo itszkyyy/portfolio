@@ -7,11 +7,11 @@ I navigated to the Splunk dashboard, then to `Search and Reporting`.
 
 Searched for `Index=*` as this will allow me to view all events.
 
-<img href="../assets/dashboard.png" alt="dashboard png" ></img>
+<img src="../assets/dashboard.png" alt="dashboard png" ></img>
 
 Opened a new terminal on my Linux instance and attempted multiple ssh attempts with the user `root`
 
-<img href="../assets/ssh-brute-attempt.png" alt="ssh brute attempt"></img>
+<img src="../assets/ssh-brute-attempt.png" alt="ssh brute attempt"></img>
 
 I've searched for `index=* AND host="pve2" AND type="USER_LOGIN"` to view user login events, both successful and unsuccessful. As we can see we can find the brute force attempts for as root on the host.
 
