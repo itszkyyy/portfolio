@@ -14,16 +14,16 @@ This project demonstrates the deployment and operation of Splunk Enterprise for 
 	- <a href="./deployment/universal-forwarder-deployment.md">Universal Forwarder Deployment</a>
   
 - detections/  
-	- Failed logon detection  
+	- <a href="./detections/brute-force-detection.md">Failed Login Attempts</a>  
 	- PowerShell execution monitoring  
 	- Account lockout monitoring  
   
 - investigations/  
-	- Brute force analysis  
+	- <a href="./detections/brute-force-detection.md">Brute force analysis</a>
 	- Suspicious PowerShell activity  
   
 ## Key Outcomes  
-- Successfully ingested Windows Security, and Rsyslogs.
+- Successfully ingested Windows Security, Linux Audit and Rsyslogs.
 - Created custom SPL searches. 
 - Built monitoring dashboards.  
 - Investigated simulated attack activity.
