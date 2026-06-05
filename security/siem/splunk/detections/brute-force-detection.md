@@ -23,3 +23,5 @@ We can deduce a brute force attempt by a given amount of attempts in a period of
 This lab demonstrated the detection of a brute force SSH attack using Splunk Enterprise and custom SPL queries. By querying index=*, filtering on host="pve2" and type="USER_LOGIN", and analyzing authentication activity for the root account, I was able to identify a high volume of failed login attempts within a short time window, a clear indicator of brute force behavior.
 
 This exercise highlights the importance of centralized log ingestion, authentication monitoring, and threshold-based detection for identifying credential attacks. By establishing baselines and defining alert conditions (e.g., excessive failed logins within a defined timeframe), Splunk can be leveraged as an effective detection and investigation platform within a SOC environment.
+
+<a href="../README.md">Back to README</a>
